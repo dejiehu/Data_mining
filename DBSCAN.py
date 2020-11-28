@@ -8,7 +8,7 @@ from sklearn.datasets import make_moons
 
 def Gen_dataSet():
     X,y = make_moons(n_samples=200, noise=0.09)
-    plt.scatter(X[:, 0], X[:, 1], s=10)
+    plt.scatter(X[:, 0], X[:, 1], s=10,c = 'r')
     plt.show()
     return X
 
