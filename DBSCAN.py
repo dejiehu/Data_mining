@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons
 
 def Gen_dataSet():
-    X,y = make_moons(n_samples=200, noise=0.09, random_state=None)
+    X,y = make_moons(n_samples=200, noise=0.09)
     plt.scatter(X[:, 0], X[:, 1], s=10)
     plt.show()
     return X
@@ -81,10 +81,9 @@ def find_neighbor(j, x, eps):
 if __name__ == '__main__':
     MinPts = 4
     dataSet = Gen_dataSet()
-
     # while 1:
     k_distance_group(dataSet, MinPts)
-    Esp = eval(input('Please input a number:'))
+    Esp = eval(input('Eps:'))
     cluster = DBSCAN(dataSet, Esp, MinPts)
     plt.figure()
     plt.scatter(dataSet[:, 0], dataSet[:, 1], c=cluster)
