@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 # import sklearn
 from sklearn import datasets
+from sklearn.datasets import make_moons
 
 
 def dbmoon(N=100, d=2, r=10, w=2):
@@ -49,7 +50,6 @@ if __name__ == '__main__':
     # plt.plot(data[0:N, 0], data[0:N, 1], 'r*', data[N:2 * N, 0], data[N:2 * N, 1], 'b*')
     # plt.plot()
     # plt.show()
-    X, y = datasets.make_moons(n_samples=100, n_features=10,
-                                            noise=0.1)
-    plt.scatter(X[:, 0], y)
+    X, y = make_moons(n_samples=200, noise=0.09)
+    plt.scatter(X[:, 0], X[:, 1], s=10)
     plt.show()
