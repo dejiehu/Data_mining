@@ -18,17 +18,17 @@ if __name__ == '__main__':
     my_data = readfile()
     dec_data = deal_data(my_data, 0, my_data.shape[1] - 2)
     K = 4
-    # x = np.array([10.1,10.9,10.4,10.4,9.6,9.8,9.7,0.1,5.2,1.2,6.5])
-    # y = x.reshape(-1,1)
-    y_pred = KMeans(n_clusters = K,max_iter= 600).fit_predict(dec_data)
+    x = np.array([10.1,10.9,10.4,10.4,9.6,9.8,9.7,0.1,5.2,1.2,6.5])
+    y = x.reshape(-1,1)
+    y_pred = KMeans(n_clusters = K,max_iter= 600).fit_predict(y)
 
     # center = y_pred.cluster_centers_
     # print(center)
     print(y_pred,"划分结果")
     class_list = [[]] * K
     for i in range(len(y_pred)):
-        class_list[y_pred[i]] = class_list[y_pred[i]] + [dec_data[i][0]]
-        # class_list[y_pred[i]] = class_list[y_pred[i]] + [x[i]]
+        # class_list[y_pred[i]] = class_list[y_pred[i]] + [dec_data[i][0]]
+        class_list[y_pred[i]] = class_list[y_pred[i]] + [x[i]]
     print(class_list)
     # print(x)
     # print(y)
