@@ -43,25 +43,28 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "CASP(Physicochemical Properties of Protein Tertiary Structure)111.csv"
+    filename = "Forest Fires.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
-    print(data[0])
+    # print(data[0])
 
     for line in range(len(data[0])-1):
-        print(line)
+        # print(line)
         data_line = [example[line] for example in data]  # 第i列
-        print(data_line)
+        # print(data_line)
         equ_class = equivalence_class_division(data_line)
-        print(equ_class)
+        # print(equ_class)
         for j in equ_class:
             #空缺值不发生改变
             if data[j[0]][line] == '?':
-                print("111")
                 continue
             for i in j:
                 data[i][line]=equ_class.index(j)
     # print(data)
+
+    # for i in range(len(data)-1,-1,-1):
+    #     if data[i][25] == '?':
+    #         del data[i]
 
     array = np.array(data)
     save = pd.DataFrame(array)
