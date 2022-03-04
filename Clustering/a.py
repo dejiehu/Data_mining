@@ -43,7 +43,7 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "Forest Fires.csv"
+    filename = "Average Localization Error.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
     # print(data[0])
@@ -60,7 +60,7 @@ if __name__ == "__main__":
                 continue
             for i in j:
                 data[i][line]=equ_class.index(j)
-    # print(data)
+    # print(type(data))
 
     # for i in range(len(data)-1,-1,-1):
     #     if data[i][25] == '?':

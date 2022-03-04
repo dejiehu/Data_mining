@@ -9,8 +9,9 @@ X, y = make_blobs(n_samples=100, n_features=2, centers=[[-1,-1], [0,0], [1,1], [
                   random_state =9)
 
 print(X)
-# plt.scatter(X[:, 0], X[:, 1], marker='o')
-# plt.show()
+# print(y)
+plt.scatter(X[:, 0], X[:, 1], marker='o')
+plt.show()
 
 from sklearn.cluster import KMeans
 y_pred = KMeans(n_clusters=4).fit_predict(X)

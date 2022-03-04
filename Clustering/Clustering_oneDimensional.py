@@ -20,6 +20,7 @@ if __name__ == '__main__':
     K = 4
     x = np.array([10.1,10.9,10.4,10.4,9.6,9.8,9.7,0.1,5.2,1.2,6.5])
     y = x.reshape(-1,1)
+    print(y)
     y_pred = KMeans(n_clusters = K,max_iter= 600).fit_predict(y)
 
     # center = y_pred.cluster_centers_
