@@ -43,7 +43,7 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "Average Localization Error.csv"
+    filename = "segmentation.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
     # print(data[0])
@@ -63,8 +63,15 @@ if __name__ == "__main__":
     # print(type(data))
 
     # for i in range(len(data)-1,-1,-1):
+    #     for j in range(len(data[0])):
+    #         if data[i][j] == '?':
+    #             del data[i]
+    #             break
+
+    # for i in range(len(data) - 1, -1, -1):
     #     if data[i][25] == '?':
     #         del data[i]
+    #         continue
 
     array = np.array(data)
     save = pd.DataFrame(array)
