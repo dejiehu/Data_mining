@@ -20,13 +20,6 @@ def readFile(filename):
                 i = i + 1
                 continue
 
-            # if " " in row:
-            #     tmp_list = row.split(' ')
-            # elif "," in row:
-            #     tmp_list = row.split(',')
-            # else:
-            #     tmp_list = row.split('\t')  # 按空格切分成每行数据
-            # tmp_list = row.split(' ')  # 按空格切分成每行数据
             tmp_list = row.split(',')
             tmp_list[-1] = tmp_list[-1].replace('\n', '')  # 去掉换行符
             data.append(tmp_list)
@@ -43,7 +36,7 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "segmentation.csv"
+    filename = "QSAR Bioconcentration classes.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
     # print(data[0])
