@@ -10,6 +10,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Clustering\Bach Choral Harmony.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\Cardiotocography.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\Cardiotocography_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\HCV.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Clustering\QSAR Bioconcentration classes.csv">
           <value>
             <Attribute>
@@ -17,7 +45,42 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Clustering\abalone.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\garments_worker_productivity.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\glass identification.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Airfoil Self-Noise.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\Anuran Calls.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Automobile.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
@@ -46,6 +109,20 @@
           </value>
         </entry>
         <entry key="\data_new\CASP(Physicochemical Properties of Protein Tertiary Structure)111.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Cardiotocography_1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Cardiotocography_2.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
@@ -115,6 +192,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_new\QSAR Bioconcentration classes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\Real estate valuation data set11.csv">
           <value>
             <Attribute>
@@ -157,7 +241,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\data_new\imports-85.csv">
+        <entry key="\data_new\garments_worker_productivity.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
