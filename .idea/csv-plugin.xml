@@ -38,7 +38,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Clustering\Image_Segmentation(2100).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Clustering\QSAR Bioconcentration classes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\Statlog (Image_Segmentation).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\Yeast.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -66,6 +87,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Clustering\servo.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\test2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\test23.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Clustering\zz.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\Airfoil Self-Noise.csv">
           <value>
             <Attribute>
@@ -74,6 +123,13 @@
           </value>
         </entry>
         <entry key="\data_new\Anuran Calls.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Anuran Calls1.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
@@ -192,6 +248,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_new\Image_Segmentation(210).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Image_Segmentation(2100).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\QSAR Bioconcentration classes.csv">
           <value>
             <Attribute>
@@ -220,6 +290,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_new\Statlog (Image Segmentation).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Statlog (Image_Segmentation).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\Wine Quality-red.csv">
           <value>
             <Attribute>
@@ -228,6 +312,13 @@
           </value>
         </entry>
         <entry key="\data_new\Yacht Hydrodynamics1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\Yeast.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
@@ -248,6 +339,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data_new\leaf.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data_new\machine.csv">
           <value>
             <Attribute>
@@ -259,6 +357,13 @@
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\primary tumor.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
@@ -298,6 +403,20 @@
           </value>
         </entry>
         <entry key="\data_new\student-por.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\test2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data_new\test23.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />

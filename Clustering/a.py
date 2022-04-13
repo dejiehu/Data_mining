@@ -36,15 +36,15 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "Yeast.csv"
+    filename = "servo.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
     # print(data[0])
     # for line in range(len(data[0])-1,len(data[0])):
-    for line in range(len(data[0])):
+    for line in range(len(data[0]) -1):
         # print(line)
         data_line = [example[line] for example in data]  # 第i列
-        print(data_line)
+        # print(data_line)
         equ_class = equivalence_class_division(data_line)
         # print(equ_class)
         for j in equ_class:
