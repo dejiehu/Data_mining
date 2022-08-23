@@ -36,7 +36,7 @@ def equivalence_class_division(data):
     return a_all
 #数据处理
 if __name__ == "__main__":
-    filename = "servo.csv"
+    filename = "meta_1.csv"
     # start = time.perf_counter()
     data = readFile(filename)#data里面已经不包括第一行
     # print(data[0])
