@@ -2,6 +2,7 @@ import operator
 import numpy as np
 import pandas as pd
 
+###weka离散化后，字符转数字
 
 def readFile(filename):
     data = []
