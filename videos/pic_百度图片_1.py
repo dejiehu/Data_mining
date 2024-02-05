@@ -13,7 +13,7 @@ headers = {
 }
 
 
-response = requests.get('https://yingpian8.com/2023/01/22',headers=headers)
+response = requests.get('https://yingpian8.com/2023/10/13',headers=headers)
 
 response.encoding = 'utf-8'
 print(response.status_code)
